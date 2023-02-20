@@ -6,3 +6,5 @@ followed by if the last digit of n is greater than 5: the string and is greater 
 the string and is less than 6 and not 0 followed by a new line
 - 2-print_alphabet.c - Write a program that prints the alphabet in lowercase, followed by a new line. You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
 All your code should be in the main function You can only use putchar twice in your code
+- 3-print_alphabets.c - Write a program that prints the alphabet in lowercase, and then in uppercase, followed by a new line.
+You can only use the putchar function (every other function (printf, puts, etc…) is forbidden) All your code should be in the main function You can only use putchar three times in your code
