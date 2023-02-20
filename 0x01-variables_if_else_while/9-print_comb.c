@@ -1,28 +1,25 @@
 #include <stdio.h>
 
 /**
- * main - a program that prints all possible combinations of
- * single-digit numbers, separated by ,followed by space in ascending order
+ * main - Prints all possible combinations of single-digit numbers.
  *
  * Return: Always 0 (Success).
  */
 int main(void)
 {
-	int i;
+	int num;
 
-	for (i = 48; i <= 57; i++)
+	for (num = 0; num <= 9; num++)
 	{
-		if (i != 57)
-		{
-			putchar(i);
-			putchar(',');
-			putchar(' ');
-		}
-		else
-		{
-			putchar(i);
-		}
+		putchar((num % 10) + '0');
+		if (num == 9)
+			continue;
+		
+		putchar(',');
+		putchar(' ');
 	}
+
+	putchar('\n');
 
 	return (0);
 }
